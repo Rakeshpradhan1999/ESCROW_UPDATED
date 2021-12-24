@@ -52,20 +52,6 @@ export default function SimpleSlider() {
       designation: "CO-FOUNDER & CHIEF MARKETING OFFICER",
       link: "https://twitter.com/kutanoor",
     },
-    {
-      imageName: "team-4",
-      desc: `He is a Mechanical Engineer with 12 years of experience in Automations & Technological development.`,
-      reviewerName: "Er Nikunj Nandha",
-      designation: "CO-FOUNDER & CHIEF OPERATIONS OFFICER",
-      link: "https://twitter.com/Er_Nikunjnandha",
-    },
-    {
-      imageName: "team-4",
-      desc: `He is an Electrical Engineer with 10 years of experience in Automations & Technological development.`,
-      reviewerName: "Ankit Nandha",
-      designation: "CO-FOUNDER & HEAD (ENERGY & SYSTEMS)",
-      link: "https://twitter.com/_ajnandha",
-    },
   ];
 
   return (
