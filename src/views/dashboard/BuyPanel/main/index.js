@@ -38,9 +38,11 @@ const MainSection = () => {
       return;
     }
     setEnable(true);
-
+    
     const contract = await new web3.eth.Contract(Abi, cAddress);
-    let bnbValue = await web3.utils.toWei(data.bnb, "ether");
+    
+    // let bnbValue = await web3.utils.toWei(data.bnb, "ether");
+    let bnbValue = Number(data.bnb * 10 ** 18)
     await contract.methods
       .buyToken(data.referral)
       .send({ from: account, value: bnbValue })
